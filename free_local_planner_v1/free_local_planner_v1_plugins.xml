@@ -1,5 +1,0 @@
-<library path="lib/libfree_local_planner_v1_lib">
-  <class name ="free_local_planner_v1/LocalPlanner" type ="free_local_planner_v1::LocalPlanner" base_class_type= "nav_core::BaseLocalPlanner">
-    <description>This base free local planner v1 plugin.</description>
-  </class>
-</library>
