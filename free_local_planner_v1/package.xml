@@ -20,7 +20,7 @@
   <exec_depend>pluginlib</exec_depend>
 
   <export>
-    <nav_core plugin="${prefix}/free_local_planner_v1_plugins.xml" />
+    <nav_core plugin="${prefix}/free_local_planner_v1_plugin.xml" />
   </export>
   
 </package>

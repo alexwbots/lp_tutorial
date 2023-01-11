@@ -1,5 +1,5 @@
-#ifndef _PLANNER_H
-#define _PLANNER_H
+#ifndef FREE_PLANNER_H_
+#define FREE_PLANNER_H_
 
 #define POT_HIGH 1.0e10        // unassigned cell potential
 #include <ros/ros.h>
@@ -57,10 +57,8 @@ namespace free_local_planner_v1{
 
       // Save the path global
       std::vector<geometry_msgs::PoseStamped> global_path_;
-      geometry_msgs::PoseStamped goal;
 
       // Pose of the robot
-      geometry_msgs::PoseStamped current_pose_;
       bool goal_reached;
 
       // Node handler for the parameters
